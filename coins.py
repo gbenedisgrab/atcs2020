@@ -42,7 +42,7 @@ def writeit(solutions, file_name):
             f.write(','.join(map(str,combo))+'\n')
 
 def main():
-    value = 150
+    value = 8
 
     start = time.time()
     print(count_coin_solutions(value),'time',time.time()-start)
